@@ -20,7 +20,7 @@ document.querySelectorAll("[data-contact]").forEach(link => {
   if (!href) return;
   link.href = href;
   const label = kind === "email" ? value : new URL(href).pathname.split("/").filter(Boolean).join("/");
-  link.querySelector(".contact-value").textContent = kind === "telegram" ? "@" + label : label;
+  link.querySelector(".contact-value").textContent = kind === "github" ? "Артём Сёмин" : kind === "telegram" ? "@" + label : label;
   contactCount += 1;
 });
 if (!contactCount) document.querySelector("#contact-note").textContent = "Контакты появятся здесь чуть позже.";
