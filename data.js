@@ -6,5 +6,5 @@ window.PORTFOLIO_DATA = {
     github: "https://github.com/loxlox14292-alt",
     email: "artem14292@mail.ru"
   },
-  projects: { game: "", hotel: "", warehouse: "" }
+  projects: { "dataset-checker": "https://github.com/loxlox14292-alt/image-dataset-checker", game: "", hotel: "", warehouse: "" }
 };
